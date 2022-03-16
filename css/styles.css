@@ -1,5 +1,15 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 380px;
+    margin: 0px;
 }
 header {
     background-image: url(../img/fruit_orange_920px.webp);
@@ -8,38 +18,44 @@ header {
     height: 380px;
 }
 
+.site-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+}
+
 .container-title {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 28px 30px;
     background-color: white;
-
 }
 
 .logo {
     margin: 30px 50px;
 }
 
-/* .container-title {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    background-color: white;
-    margin: 28px 30px 28px 30px;
+.slogan {
+    text-align: center;
+    color: #57bb6b;
+    font-size: 20px;
+    margin: 0 60px 28px;
 }
 
-.title {
+.button {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-    justify-items: center;
-    font-size: 10px;
+    justify-content: center;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    margin: 30px 50px 85px 50px;
-} */
+.button a {
+    font-size: 20px;
+    background-color: #57bb6b;
+    color: #ffffff;
+    margin: 18px 60px 18px 60px;
+    padding: 18px;
+    text-decoration: none;
+}
