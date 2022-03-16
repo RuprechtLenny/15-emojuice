@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+header {
+    background-image: url(../img/fruit_orange_920px.webp);
+    background-size: cover;
+    margin: 0;
+    height: 380px;
+}
+
+.container-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 28px 30px;
+    background-color: white;
+
+}
+
+.logo {
+    margin: 30px 50px;
+}
+
+/* .container-title {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    margin: 28px 30px 28px 30px;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    font-size: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 30px 50px 85px 50px;
+} */
