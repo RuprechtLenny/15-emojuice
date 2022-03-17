@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html {
+ html {
     scroll-behavior: smooth;
 }
 
@@ -44,18 +39,50 @@ header {
     margin: 0 60px 28px;
 }
 
-.button {
+.button-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    width: 100%;
 }
 
 .button a {
     font-size: 20px;
     background-color: #57bb6b;
     color: #ffffff;
-    margin: 18px 60px 18px 60px;
-    padding: 18px;
+    margin: 10px 60px 10px 60px;
+    padding: 10px 20px;
     text-decoration: none;
+    border-radius: 10px;
+}
+
+nav, h1 {
+    text-align: center;
+    font-weight: 300;
+    margin: 90px 0;
+}
+
+nav {
+    margin: 0 60px;
+}
+
+.icone-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.icone img{
+    width: 20px;
+    height: auto;
+    margin: 0;
+}
+
+main {
+    background-color: #57bb6b;
+}
+
+h1 {
+    font-size: 20px;
+    color: #ffffff;
 }
