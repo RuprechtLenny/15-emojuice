@@ -82,7 +82,14 @@ main {
     background-color: #57bb6b;
 }
 
-h1 {
-    font-size: 20px;
+h2 {
+    font-size: 30px;
     color: #ffffff;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.container-fruit {
+    margin: 0 40px;
+    background-color: red;
 }
