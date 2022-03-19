@@ -92,4 +92,27 @@ h2 {
 .container-fruit {
     margin: 0 40px;
     background-color: red;
+    height: 240px;
+    border-radius: 20px;
+}
+
+.banane {
+    background-color: #fff8d7;
+}
+
+.kiwi {
+    background-color: #c4f2ad;
+}
+
+.cafe {
+    background-color: #d3c6b2;
+}
+
+.fraise {
+    background-color: #f7a4b4;
+}
+
+.fruit {
+    height: 75px;
+    width: auto;
 }
