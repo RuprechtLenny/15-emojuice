@@ -133,13 +133,21 @@ h2 {
     margin-top: 5px;
 }
 
+.container-lien {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
 .fruit-img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
     height: 75px;
     width: auto;
-    background-color: red;
 }
 
 h4 {
