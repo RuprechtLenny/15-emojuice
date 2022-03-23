@@ -80,6 +80,13 @@ nav {
     margin-bottom: 50px;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 30px 67px 50px 67px;
+}
+
 .icone img{
     width: 20px;
     height: auto;
@@ -172,4 +179,14 @@ footer p {
     color: #57bb6b;
     font-size: 12px;
     margin: 70px 88px 40px;
+}
+
+.article-kiwi {
+    height: 130px;
+    width: auto;
+}
+
+.cercle-kiwi {
+    width: 100px;
+    height: auto;
 }
