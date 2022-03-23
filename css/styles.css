@@ -187,8 +187,14 @@ footer p {
 }
 
 .cercle-kiwi {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
     width: 100px;
     height: auto;
+    margin: auto;
+    
 }
 
 .fruit-small {
@@ -218,4 +224,5 @@ footer p {
     text-align: center;
     font-family: 'Quattrocento', serif;
     margin-top: 10px;
+    padding-bottom: 50px;
 }
