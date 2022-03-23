@@ -190,3 +190,32 @@ footer p {
     width: 100px;
     height: auto;
 }
+
+.fruit-small {
+    height: 60px;
+    width: auto;
+}
+
+.symbole {
+    height: 13px;
+    width: auto;
+}
+
+.subtitle {
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Sriracha', cursive;
+    font-size: 30px;
+}
+
+.sirup-container {
+    background-color: #c4f2ad;
+    height: 400px;
+}
+
+.sirup-container p {
+    text-align: center;
+    font-family: 'Quattrocento', serif;
+    margin-top: 10px;
+}
