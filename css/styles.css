@@ -231,11 +231,23 @@ footer {
     background-color: #ffffff;
 }
 
-.nutrition {
+.description-container {
     color: #ffffff;
     margin: 50px 68px;
 }
 
-.nutrition-title {
-    
+.description {
+    text-align: start;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 25px;
+}
+
+.description-subtitle {
+    text-align: start;
+    font-size: 18px;
+    font-family: 'Quattrocento', serif;
+}
+
+.produit {
+    background-color: #c4f2ad;
 }
