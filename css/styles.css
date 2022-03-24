@@ -59,6 +59,8 @@ header {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 10px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
 }
 
 nav, h1 {
@@ -107,7 +109,6 @@ h2 {
 
 .container-fruit {
     margin: 0 40px;
-    background-color: red;
     height: 240px;
     border-radius: 20px;
 }
@@ -163,10 +164,6 @@ h2 {
     height: 75px;
     width: auto;
 }
-/* 
-.fraise .container-fruit {
-    margin-bottom: 200px;
-} */
 
 h4 {
     color: #57bb6b;
@@ -179,6 +176,10 @@ footer p {
     color: #57bb6b;
     font-size: 12px;
     margin: 70px 88px 40px;
+}
+
+.main-kiwi {
+    background-color: #ffffff;
 }
 
 .article-kiwi {
@@ -248,6 +249,35 @@ footer {
     font-family: 'Quattrocento', serif;
 }
 
-.produit {
+
+.product-title {
+    margin: 0;
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+}
+
+.test {
     background-color: #c4f2ad;
+    height: 500px;
+}
+
+.container-small {
+    margin-top: 20px;
+    height: 155px;
+    width: 155px;
+    border-radius: 20px;
+}
+
+.carre {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.test, h1 {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 900;
+    margin: 0;
+    padding: 25px 0; 
 }
